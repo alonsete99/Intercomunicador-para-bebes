@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ESP32)(type Legacy)(uri "${KIPRJMOD}/Huellas y 3Ds/ESP32-DEVKITC-32D.lib")(options "")(descr ""))
+  (lib (name inmp441)(type Legacy)(uri "${KIPRJMOD}/Huellas y 3Ds/inmp441.lib")(options "")(descr ""))
+)

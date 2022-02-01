@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <Button
+        android:id="@+id/start_button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="NANA"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:rippleColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/stop_button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Stop"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/receive_button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Receive Sound"
+        android:textColor="#F8F3F3"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
